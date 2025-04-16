@@ -1,0 +1,14 @@
+ang_1 = float(input("Enter the first angle"))
+ang_2 = float(input("Enter the second angle"))
+ang_3 = float(input("Enter the third angle"))
+
+if(ang_1+ang_2+ang_3 == 180):
+    if(ang_1==ang_2==ang_3):
+        print("it's an equilateral triangle ")
+    elif(ang_1==ang_2 or ang_2==ang_3 or ang_1==ang_3):
+        print("it's an isosceles triangle")
+    else:
+        print("a scalene triangle")
+
+else:
+    print("The angles do not form a valid triangle.")
