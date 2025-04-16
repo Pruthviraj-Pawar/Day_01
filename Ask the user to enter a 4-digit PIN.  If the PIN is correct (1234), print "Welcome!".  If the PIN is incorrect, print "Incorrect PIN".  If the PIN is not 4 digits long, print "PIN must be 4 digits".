@@ -1,0 +1,8 @@
+pin = (input("Enter a four digit  pin"))
+
+if (len(pin) != 4):
+    print("Pin must be 4 digits")
+elif(pin=="1234"):
+    print("welcome!")
+else:
+    print ("Incorrect pin")
